@@ -22,7 +22,7 @@ if (!isset($_SESSION['username'])) {
     
         <div class = "container">
         <?php echo "<h1>Welcome " . $_SESSION['username'] . "</h1>"; ?>
-        <a href="logout.php">Logout</a>             <a href="index.html">let's go!</a>  
+        <a href="logout.php">Logout</a>             <a href="home.html">let's go!</a>  
         
         </div>
 
